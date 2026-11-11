@@ -1,4 +1,30 @@
 User-agent: *
 Allow: /
 
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+# AI crawlers and answer engines — allowed on purpose, since the goal
+# of this site is to be found and referenced, not protected
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Known for ignoring crawl-delay and hitting small sites hard —
+# blocked to protect free hosting bandwidth, not for content reasons
+User-agent: Bytespider
+Disallow: /
+
 Sitemap: https://bhawanigrowth.netlify.com/sitemap.xml

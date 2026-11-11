@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bhawanigrowth.com/sitemap.xml
+Sitemap: https://bhawanigrowth.netlify.com/sitemap.xml
